@@ -78,3 +78,12 @@ def test_겹치는_기존_예약이_여러_건이어도_오류는_한_번만_추
     existing = [make(id=2), make(id=3, start="10:30", end="11:30")]
     errors = validate(make(), ROOMS, existing)
     assert errors.count("이미 예약된 시간입니다.") == 1
+
+
+def test_정원을_넘으면_막는다():
+    errors = validate(make(attendees=5), ROOMS, [])
+    assert "정원을 넘었습니다." in errors
+
+
+def test_정원과_같은_인원은_허용한다():
+    assert validate(make(attendees=4), ROOMS, []) == []
