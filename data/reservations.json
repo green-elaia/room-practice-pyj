@@ -1,7 +1,74 @@
 [
-  { "id": 1, "room_id": "R1", "title": "주간 업무 회의", "booker": "김민수", "team": "기획팀", "phone": "010-1234-5678", "date": "2026-11-10", "start": "10:00", "end": "11:00", "attendees": 4 },
-  { "id": 2, "room_id": "R3", "title": "신규 서비스 킥오프", "booker": "이지은", "team": "서비스개발팀", "phone": "010-2345-6789", "date": "2026-11-10", "start": "13:00", "end": "15:00", "attendees": 7 },
-  { "id": 3, "room_id": "R4", "title": "분기 실적 공유", "booker": "박준호", "team": "경영지원팀", "phone": "010-3456-7890", "date": "2026-11-11", "start": "09:00", "end": "11:00", "attendees": 15 },
-  { "id": 4, "room_id": "R2", "title": "면접", "booker": "최수연", "team": "인사팀", "phone": "010-4567-8901", "date": "2026-11-11", "start": "14:00", "end": "15:00", "attendees": 3 },
-  { "id": 5, "room_id": "R1", "title": "디자인 리뷰", "booker": "정하늘", "team": "UX팀", "phone": "010-5678-9012", "date": "2026-11-12", "start": "16:00", "end": "17:30", "attendees": 4 }
+  {
+    "id": 1,
+    "room_id": "R1",
+    "title": "주간 업무 회의",
+    "booker": "김민수",
+    "team": "기획팀",
+    "phone": "010-1234-5678",
+    "date": "2026-11-10",
+    "start": "10:00",
+    "end": "11:00",
+    "attendees": 4
+  },
+  {
+    "id": 2,
+    "room_id": "R3",
+    "title": "신규 서비스 킥오프",
+    "booker": "이지은",
+    "team": "서비스개발팀",
+    "phone": "010-2345-6789",
+    "date": "2026-11-10",
+    "start": "13:00",
+    "end": "15:00",
+    "attendees": 7
+  },
+  {
+    "id": 3,
+    "room_id": "R4",
+    "title": "분기 실적 공유",
+    "booker": "박준호",
+    "team": "경영지원팀",
+    "phone": "010-3456-7890",
+    "date": "2026-11-11",
+    "start": "09:00",
+    "end": "11:00",
+    "attendees": 15
+  },
+  {
+    "id": 4,
+    "room_id": "R2",
+    "title": "면접",
+    "booker": "최수연",
+    "team": "인사팀",
+    "phone": "010-4567-8901",
+    "date": "2026-11-11",
+    "start": "14:00",
+    "end": "15:00",
+    "attendees": 3
+  },
+  {
+    "id": 5,
+    "room_id": "R1",
+    "title": "디자인 리뷰",
+    "booker": "정하늘",
+    "team": "UX팀",
+    "phone": "010-5678-9012",
+    "date": "2026-11-12",
+    "start": "16:00",
+    "end": "17:30",
+    "attendees": 4
+  },
+  {
+    "id": 6,
+    "room_id": "R1",
+    "title": "정원딱맞음",
+    "booker": "홍길동",
+    "team": "",
+    "phone": "",
+    "date": "2026-11-13",
+    "start": "10:00",
+    "end": "11:00",
+    "attendees": 4
+  }
 ]
