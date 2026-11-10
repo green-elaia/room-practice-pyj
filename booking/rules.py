@@ -26,7 +26,7 @@ def validate(new: Reservation, rooms: list[Room], existing: list[Reservation]) -
     if start >= end:
         errors.append("끝나는 시간은 시작 시간보다 늦어야 합니다.")
 
-    if start < to_minutes(OPEN_TIME) or end >= to_minutes(CLOSE_TIME):
+    if start < to_minutes(OPEN_TIME) or end > to_minutes(CLOSE_TIME):
         errors.append(f"운영 시간({OPEN_TIME}~{CLOSE_TIME}) 밖입니다.")
 
     if start % 30 != 0 or end % 30 != 0:
