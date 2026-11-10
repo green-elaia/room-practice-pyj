@@ -1,0 +1,6 @@
+[
+  { "id": "R1", "name": "소회의실 A", "capacity": 4, "floor": 3 },
+  { "id": "R2", "name": "소회의실 B", "capacity": 4, "floor": 3 },
+  { "id": "R3", "name": "중회의실", "capacity": 8, "floor": 5 },
+  { "id": "R4", "name": "대회의실", "capacity": 16, "floor": 7 }
+]
